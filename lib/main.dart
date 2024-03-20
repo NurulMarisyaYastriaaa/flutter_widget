@@ -16,50 +16,8 @@ class MyApp extends StatelessWidget {
           ),
           body: ListView(children: [
             const Text(
-              'Belajar Flutter untuk Pemula',
+              'Selamat Datang',
               style: TextStyle(fontSize: 24, fontFamily: "Serif", height: 2.0),
-            ),
-            Container(
-              padding: const EdgeInsets.all(20),
-              color: Colors.pinkAccent,
-              child: const Text('Ini adalah Container'),
-            ),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                Image.network('https://picsum.photos/id/237/200/300'),
-                Image.network('https://picsum.photos/id/237/200/300')
-              ],
-            ),
-            const Column(
-              children: [
-                Text('Baris 1'),
-                Text('Baris 2'),
-              ],
-            ),
-            Image.network('https://picsum.photos/seed/picsum/200/300'),
-            ElevatedButton(
-              onPressed: () {},
-              child: const Text('tombol'),
-            ),
-            TextButton(
-              onPressed: () {},
-              child: const Text('tombol teks'),
-            ),
-            Stack(alignment: Alignment.center, children: [
-              Container(color: Colors.green, height: 100, width: 100),
-              const Text('Atas Stack'),
-            ]),
-            const Padding(
-              padding: EdgeInsets.all(20),
-              child: Text('Ini adalah contoh Padding'),
-            ),
-            const Center(
-              child: Text('Ini adalah teks yang terpusat'),
-            ),
-            AspectRatio(
-              aspectRatio: 16 / 9,
-              child: Container(color: Colors.red),
             ),
             GridView.count(
               shrinkWrap: true,
